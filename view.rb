@@ -1,4 +1,4 @@
-class TaskView
+class View
   def display(tasks)
     tasks.each_with_index do |task, index|
       done = task.done? ? "[X]" : "[ ]"

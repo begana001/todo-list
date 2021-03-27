@@ -1,4 +1,4 @@
-class TaskRepository
+class Repository
   def initialize
     @tasks = []
   end
